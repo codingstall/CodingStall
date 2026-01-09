@@ -1,0 +1,223 @@
+/* CurriculumFullStackJava.css */
+
+.java-fullstack-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 35px;
+  border: 1px solid #6366f1;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.1);
+}
+
+.java-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.java-title {
+  color: #312e81;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.java-tagline {
+  color: #6366f1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Faculty */
+.java-faculty-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background: #f8faff;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.java-faculty-item {
+  text-align: center;
+}
+
+.java-faculty-item img {
+  width: 95px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.java-faculty-item h5 {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.java-faculty-item p {
+  font-size: 11px;
+  color: #64748b;
+}
+
+.java-faculty-item span {
+  color: #6366f1;
+  font-weight: bold;
+}
+
+/* Roadmap Timeline */
+.section-label {
+  font-size: 16px;
+  color: #1e293b;
+  margin-bottom: 15px;
+  border-left: 4px solid #6366f1;
+  padding-left: 10px;
+}
+
+.java-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeline-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  padding: 12px;
+  transition: 0.3s;
+}
+
+.timeline-card:hover {
+  border-color: #6366f1;
+  transform: translateX(5px);
+}
+
+.phase-badge {
+  background: #6366f1;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 11px;
+  font-weight: bold;
+  min-width: 60px;
+  text-align: center;
+}
+
+.phase-content {
+  margin-left: 15px;
+}
+
+.phase-content h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #1e293b;
+}
+
+.phase-content p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* Footer Features */
+.java-feature-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 10px;
+  background: #f1f5f9;
+  border-radius: 12px;
+}
+
+.feature-item .icon { font-size: 18px; }
+
+.feature-item p {
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.java-download-btn {
+  width: 100%;
+  padding: 16px;
+  background: #312e81;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+/* Daily Structure */
+.fs-daily-structure {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0 30px;
+}
+
+.fs-daily-box {
+  background: #f8faff;
+  padding: 14px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 13px;
+  border-top: 3px solid #6366f1;
+}
+
+.fs-daily-box strong {
+  color: #312e81;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Real-Time Work Style */
+.fs-workstyle-box {
+  background: #f1f5f9;
+  padding: 18px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+}
+
+.fs-workstyle-box h4 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #312e81;
+}
+
+.fs-workstyle-box ul {
+  padding-left: 18px;
+  font-size: 13px;
+  color: #475569;
+}
+
+/* Outcomes */
+.fs-outcome-box {
+  background: #ffffff;
+  border: 1px dashed #6366f1;
+  padding: 18px;
+  border-radius: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.fs-outcome-box h4 {
+  margin-bottom: 6px;
+  color: #312e81;
+  font-size: 15px;
+}
+
+.fs-outcome-box p {
+  font-size: 13px;
+  color: #475569;
+}

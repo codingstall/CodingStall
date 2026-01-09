@@ -1,0 +1,244 @@
+/* CurriculumSQL.css */
+
+.sql-curriculum-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #0d9488; /* Teal border */
+  border-radius: 24px;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  box-shadow: 0 15px 35px rgba(13, 148, 136, 0.1);
+}
+
+.sql-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sql-logo-circle img{
+  width: 100px;
+  height: 90px;
+  /* background: #0d9488; */
+  color: white;
+  /* border-radius: 12px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+  margin: 0 auto 15px;
+}
+
+.sql-title {
+  font-size: 26px;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.sql-tagline {
+  font-size: 14px;
+  color: #64748b;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.sql-tech-stack {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d9488;
+  margin-bottom: 30px;
+  background: #f0fdfa;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+/* Roadmap */
+.sql-roadmap-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+.sql-module-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.sql-month-tag {
+  background: #1e293b;
+  color: white;
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  min-width: 65px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sql-content h4 {
+  margin: 0 0 5px 0;
+  font-size: 16px;
+  color: #0d9488;
+}
+
+.sql-content p {
+  margin: 0;
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.4;
+}
+
+/* Benefits Grid */
+.sql-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.sql-benefit-card {
+  background: #f8fafc;
+  padding: 15px 10px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+.sql-icon { font-size: 20px; display: block; margin-bottom: 8px; }
+
+.sql-benefit-card h5 {
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  color: #1e293b;
+}
+
+.sql-benefit-card p {
+  margin: 0;
+  font-size: 10px;
+  color: #64748b;
+}
+
+/* Footer & CTA */
+.sql-mentor-footer {
+  text-align: center;
+}
+
+.sql-mentor-footer p {
+  font-size: 12px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.sql-cta-button {
+  width: 100%;
+  padding: 16px;
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sql-cta-button:hover {
+  background: #0d9488;
+  transform: translateY(-2px);
+}
+/* ===============================
+   EXPERT FACULTY (SQL)
+================================ */
+
+.sql-section {
+  margin: 30px 0 40px;
+  text-align: center;
+}
+
+.sql-section-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+/* Faculty Grid */
+.sql-faculty-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Faculty Card */
+.sql-faculty-card {
+  text-align: center;
+}
+
+.sql-faculty-card img {
+  width: 95px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #f0fdfa;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.25);
+}
+
+.sql-faculty-card h4 {
+  margin: 10px 0 4px;
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.sql-faculty-card p {
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.4;
+}
+
+.sql-faculty-card span {
+  color: #0d9488; /* teal accent */
+  font-weight: 600;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 520px) {
+  .sql-faculty-grid {
+    gap: 24px;
+  }
+}
+/* Duration Info */
+.sql-duration-box {
+  background: #f0fdfa;
+  padding: 10px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 12px;
+  color: #0f766e;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Daily Structure */
+.sql-daily-structure {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.sql-daily-box {
+  background: #f8fafc;
+  padding: 14px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 13px;
+  border-top: 3px solid #0d9488;
+}
+
+.sql-daily-box strong {
+  color: #0d9488;
+  display: block;
+  margin-bottom: 4px;
+}
