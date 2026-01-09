@@ -8,12 +8,12 @@ import CurriculumJava from "./pages/CurriculumJava";
 import CurriculumFullStackJava from "./pages/CurriculumFullStackJava";
 import CurriculumSQL from "./pages/CurriculumSQL";
 import CurriculumFullStackPython from "./pages/CurriculumFullStackPython";
-import WhatsAppFloat from "./pages/WhatsappFloat";
+import WhatsappFloat from "./pages/WhatsappFloat";
 
 function App() {
   return (
     <BrowserRouter>
-    <WhatsAppFloat />
+    <WhatsappFloat />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/courses" element={<CoursesInfo />} />

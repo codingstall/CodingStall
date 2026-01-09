@@ -1,7 +1,7 @@
 import React from "react";
-import "./WhatsAppFloat.css";
+import "./WhatsappFloat.css";
 
-const WhatsAppFloat = () => {
+const WhatsappFloat = () => {
   return (
     <a
       href="https://wa.me/918328687566"   // <-- replace with your number
@@ -18,4 +18,4 @@ const WhatsAppFloat = () => {
   );
 };
 
-export default WhatsAppFloat;
+export default WhatsappFloat;
