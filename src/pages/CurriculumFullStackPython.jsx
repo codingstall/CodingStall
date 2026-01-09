@@ -138,6 +138,18 @@ const CurriculumFullStackPython = () => {
           <p>Career Coaching & Placement</p>
         </div>
       </div>
+      <div className="plan-grid">
+        <div className="basicplan-box">
+          <h4>Basic Plan</h4>
+          <b>20,000.00</b>
+           <br/>
+          <p className="eligible"><b>*</b> You are not eligible for placement drives</p>
+        </div>
+        <div className="afterplaced-box">
+          <h4>Pay After Placement Plan</h4>
+          <p className="eligible">Pay basic amount first. Then pay <b>40,000.00</b> after you got placed through us.</p>
+        </div>
+      </div>
 
       <button className="python-download-btn" onClick={openWhatsApp}>
         Enroll Now

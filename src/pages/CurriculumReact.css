@@ -111,6 +111,55 @@
   margin: 0;
   opacity: 0.9;
 }
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.basicplan-box {
+  background: rgb(246, 246, 246);
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+   border: 1px solid #2ecc71;
+}
+.afterplaced-box {
+  background: rgb(246, 246, 246);;
+  color: black;
+  padding: 15px;
+  border-radius: 12px;
+  border: 2px solid goldenrod;
+}
+
+.basicplan-box h4 {
+  margin: 0 0 5px;
+  font-size: 14px;
+  color: brown;
+}
+
+.basicplan-box b {
+  font-size: 12px;
+  margin: 0;
+  opacity: 0.9;
+}
+.afterplaced-box h4 {
+  margin: 0 0 5px;
+  font-size: 14px;
+  color: brown;
+}
+
+.afterplaced-box p {
+  font-size: 12px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.eligible{
+  color: #64748b;
+  font-size: 0.8rem;
+}
 
 .enroll-btn {
   width: 100%;

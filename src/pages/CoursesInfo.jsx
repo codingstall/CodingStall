@@ -66,7 +66,7 @@ const CoursesInfo = () => {
         "Weekly Mock tests & Interviews",
         "One-on-One Mentorship",
       ],
-      outcome: "Average Salary: 3-8 LPA",
+      outcome: "Average Salary: 3 - 8 LPA",
     },
     {
       role: "AngularJs Developer",
@@ -94,7 +94,7 @@ const CoursesInfo = () => {
         "Weekly Mock tests & Interviews",
         "One-on-One Mentorship",
       ],
-      outcome: "Average Salary: 3-8 LPA",
+      outcome: "Average Salary: 3 - 8 LPA",
     },
     {
       role: "Java Developer",
@@ -128,7 +128,7 @@ const CoursesInfo = () => {
         "Weekly Mock tests & Interviews",
         "One-on-One Mentorship",
       ],
-      outcome: "Average Salary: 3.2-7 LPA",
+      outcome: "Average Salary: 3.2 - 7 LPA",
     },
     {
       role: "Full-Stack Java Developer",
@@ -177,7 +177,7 @@ const CoursesInfo = () => {
         "Weekly Mock tests & Interviews",
         "One-on-One Mentorship",
       ],
-      outcome: "Average Salary: 3-5 LPA",
+      outcome: "Average Salary: 3 - 8 LPA",
     },
     {
       role: "SQL Developer",
@@ -206,7 +206,7 @@ const CoursesInfo = () => {
         "Weekly Mock tests & Interviews",
         "One-on-One Mentorship",
       ],
-      outcome: "Average Salary: 3-7 LPA",
+      outcome: "Average Salary: 3 - 7 LPA",
     },
     {
       role: "Full-Stack Python Developer",
@@ -255,7 +255,7 @@ const CoursesInfo = () => {
         "Weekly Mock Tests & Interviews",
         "One-on-One Mentorship",
       ],
-      outcome: "Average Salary: 3-5 LPA",
+      outcome: "Average Salary: 3 - 8 LPA",
     },
   ];
 
