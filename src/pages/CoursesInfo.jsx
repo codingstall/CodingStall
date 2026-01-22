@@ -20,7 +20,8 @@ const CoursesInfo = () => {
       "https://dko97fmntp7zh.cloudfront.net/1f64bbba-9d01-462b-bc58-43e36714317c_images (3).png",
     TypeScript: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
     JavaScript: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
-    Python:        "https://dko97fmntp7zh.cloudfront.net/f1151ee8-475a-4420-b999-7fc59f1ef64e_python-logo-11609373642q9ewsev5ea.png",
+    Python:
+      "https://dko97fmntp7zh.cloudfront.net/f1151ee8-475a-4420-b999-7fc59f1ef64e_python-logo-11609373642q9ewsev5ea.png",
     HTML5:
       "https://dko97fmntp7zh.cloudfront.net/dffe7f91-ea7d-40c8-a1e8-1070833a6f0a_HTML5_logo_and_wordmark.svg.png",
     CSS3: "https://dko97fmntp7zh.cloudfront.net/e881c19c-38f9-4851-a9ba-fbac2381975c_images (4).png",
@@ -38,6 +39,12 @@ const CoursesInfo = () => {
     PgAdmin:
       "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
     MySql: "https://cdn-icons-png.flaticon.com/512/528/528260.png",
+    AI: "https://dko97fmntp7zh.cloudfront.net/f861e98f-f215-44d6-a3ba-cb5fcecbe9fc_AI.jpg",
+    ML: "https://dko97fmntp7zh.cloudfront.net/cbe0a8ea-94a8-4935-9207-d2b9e4c9877b_ML.jpg",
+    TensorFlow:
+      "https://dko97fmntp7zh.cloudfront.net/e2101714-442f-42c9-8a1a-23f61c6d4c89_TensorFlow.jpg",
+    PyTorch:
+      "https://dko97fmntp7zh.cloudfront.net/b373355f-7b68-4d5d-993d-14e54f530a7c_PyTorch.webp",
   };
 
   const careerPaths = [
@@ -67,6 +74,36 @@ const CoursesInfo = () => {
         "One-on-One Mentorship",
       ],
       outcome: "Average Salary: 3 - 8 LPA",
+    },
+    {
+      role: "AI/ML Developer",
+      route: "/curriculum/aiml",
+      icons: ["Python", "AI", "ML", "TensorFlow", "PyTorch"],
+      description:
+        "AI is the future, and Machine Learning is the brain that powers smart applications.",
+      skills: [
+        "Python Programming",
+        "NumPy & Pandas",
+        "Statistics & Probability",
+        "Exploratory Data Analysis (EDA)",
+        "Data Preprocessing & Feature Engineering",
+        "Machine Learning (Supervised + Unsupervised)",
+        "Model Training, Evaluation & Tuning",
+        "Scikit-learn",
+        "Deep Learning Fundamentals",
+        "Neural Networks (ANN)",
+        "CNN (Image Processing)",
+        "NLP (Text Processing)",
+        "Transformers (HuggingFace Basics)",
+        "TensorFlow / Keras",
+        "PyTorch (Basics)",
+        "SQL Basics for Data Handling",
+        "Model Deployment (Flask/FastAPI)",
+        "MLOps Basics (Git, Docker, Cloud Intro)",
+        "Real-Time Projects + Mock Interviews",
+        "One-on-One Mentorship",
+      ],
+      outcome: "Average Salary: 4 - 10 LPA",
     },
     {
       role: "AngularJs Developer",
@@ -211,14 +248,7 @@ const CoursesInfo = () => {
     {
       role: "Full-Stack Python Developer",
       route: "/curriculum/fullstack-python",
-      icons: [
-        "Python",
-        "Reactjs",
-        "TypeScript",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-      ],
+      icons: ["Python", "Reactjs", "TypeScript", "JavaScript", "HTML5", "CSS3"],
       description:
         "Design and build scalable, secure, and high-performance applications using Python. Work across backend development, APIs, databases, and cloud deployment with real-world, industry-driven projects.",
       skills: [
@@ -281,7 +311,7 @@ const CoursesInfo = () => {
                 (iconName, i) =>
                   skillIcons[iconName] && (
                     <img key={i} src={skillIcons[iconName]} alt={iconName} />
-                  )
+                  ),
               )}
             </div>
 

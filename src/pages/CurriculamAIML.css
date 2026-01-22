@@ -1,0 +1,384 @@
+/* AI/ML Curriculum Styles */
+
+.aiml-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 35px;
+  border: 1px solid #7c3aed; /* Purple AI feel */
+  border-radius: 30px;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  box-shadow: 0 20px 40px rgba(124, 58, 237, 0.12);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background glow */
+.aiml-container::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(124, 58, 237, 0.25), transparent 70%);
+  filter: blur(10px);
+  z-index: 0;
+}
+
+.aiml-container::after {
+  content: "";
+  position: absolute;
+  bottom: -120px;
+  left: -120px;
+  width: 260px;
+  height: 260px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.20), transparent 70%);
+  filter: blur(10px);
+  z-index: 0;
+}
+
+.aiml-container * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.aiml-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aiml-title {
+  color: #0f172a;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 0.2px;
+}
+
+.aiml-tagline {
+  color: #7c3aed;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+/* Section Labels */
+.section-label {
+  font-size: 16px;
+  color: #1e293b;
+  margin-bottom: 15px;
+  border-left: 4px solid #7c3aed;
+  padding-left: 10px;
+}
+
+/* Faculty Section */
+.aiml-faculty-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+  background: linear-gradient(135deg, #f5f3ff, #eff6ff);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+.aiml-faculty-item {
+  text-align: center;
+}
+
+.aiml-faculty-item img {
+  width: 95px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.aiml-faculty-item h5 {
+  margin: 10px 0 0;
+  font-size: 14px;
+}
+
+.aiml-faculty-item p {
+  font-size: 11px;
+  color: #64748b;
+}
+
+.aiml-faculty-item span {
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+/* Roadmap Timeline */
+.aiml-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeline-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 14px;
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.05);
+}
+
+.timeline-card:hover {
+  border-color: #7c3aed;
+  transform: translateX(6px);
+  box-shadow: 0 12px 28px rgba(124, 58, 237, 0.14);
+}
+
+.phase-badge {
+  background: linear-gradient(135deg, #7c3aed, #3b82f6);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 800;
+  min-width: 75px;
+  text-align: center;
+}
+
+.phase-content {
+  margin-left: 15px;
+}
+
+.phase-content h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 800;
+}
+
+.phase-content p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* Daily Structure */
+.aiml-daily-structure {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin: 20px 0 30px;
+}
+
+.aiml-daily-box {
+  background: linear-gradient(135deg, #f5f3ff, #eff6ff);
+  padding: 14px;
+  border-radius: 14px;
+  text-align: center;
+  font-size: 13px;
+  border-top: 3px solid #7c3aed;
+  transition: 0.2s;
+}
+
+.aiml-daily-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(124, 58, 237, 0.15);
+}
+
+.aiml-daily-box strong {
+  color: #0f172a;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Work Style Box */
+.aiml-workstyle-box {
+  background: #f8fafc;
+  padding: 18px;
+  border-radius: 18px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+.aiml-workstyle-box h4 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #0f172a;
+}
+
+.aiml-workstyle-box ul {
+  padding-left: 18px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.aiml-workstyle-box li {
+  margin-bottom: 8px;
+}
+
+/* Career Outcomes */
+.aiml-outcome-box {
+  background: #ffffff;
+  border: 1px dashed #7c3aed;
+  padding: 18px;
+  border-radius: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aiml-outcome-box h4 {
+  margin-bottom: 6px;
+  color: #0f172a;
+  font-size: 15px;
+}
+
+.aiml-outcome-box p {
+  font-size: 13px;
+  color: #475569;
+}
+
+/* Footer Features */
+.aiml-feature-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 10px;
+  background: #f1f5f9;
+  border-radius: 12px;
+  border: 1px solid rgba(124, 58, 237, 0.12);
+  transition: 0.25s;
+}
+
+.feature-item:hover {
+  transform: translateY(-3px);
+  background: #ffffff;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.08);
+}
+
+.feature-item .icon {
+  font-size: 18px;
+}
+
+.feature-item p {
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: 700;
+  color: #475569;
+}
+
+/* Plan Grid (Reuse your existing class names for consistency) */
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 15px 0 25px;
+}
+
+.basicplan-box {
+  padding: 16px;
+  border-radius: 18px;
+  background: #c8f288;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: 0.25s;
+}
+
+.afterplaced-box {
+  padding: 16px;
+  border-radius: 18px;
+  background: #f8dc61;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: 0.25s;
+}
+
+.basicplan-box:hover,
+.afterplaced-box:hover {
+  border-color: #7c3aed;
+  transform: translateY(-4px);
+}
+
+.basicplan-box h4,
+.afterplaced-box h4 {
+  margin: 0 0 8px;
+  color: #0f172a;
+}
+
+.eligible {
+  font-size: 11px;
+  color: #64748b;
+}
+
+/* Enroll Button */
+.aiml-enroll-btn {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #0f172a, #7c3aed);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.aiml-enroll-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 35px rgba(124, 58, 237, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .aiml-container {
+    margin: 18px;
+    padding: 22px;
+    border-radius: 22px;
+  }
+
+  /* ✅ Keep mentors side by side in mobile */
+  .aiml-faculty-row {
+    flex-direction: row;         /* keep row */
+    flex-wrap: wrap;             /* wrap if needed */
+    justify-content: space-between;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .aiml-faculty-item {
+    width: 30%;
+    min-width: 95px;
+  }
+
+  .aiml-faculty-item img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .aiml-faculty-item h5 {
+    font-size: 12px;
+  }
+
+  .aiml-faculty-item p {
+    font-size: 10px;
+  }
+
+  .aiml-daily-structure {
+    grid-template-columns: 1fr;
+  }
+
+  .aiml-feature-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
