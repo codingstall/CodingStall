@@ -40,7 +40,7 @@ const CurriculumReact = () => {
             <h4>Anushak Jain</h4>
             <p>
               Senior Frontend Developer <br />
-              <span>4+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
 
@@ -53,7 +53,7 @@ const CurriculumReact = () => {
             <p>
               Soft Skills Trainer
               <br />
-              <span>5+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
         </div>
@@ -142,7 +142,7 @@ const CurriculumReact = () => {
        <div className="plan-grid">
         <div className="basicplan-box">
           <h4>Basic Plan</h4>
-          <b>15,000.00</b> 
+          <b>20,000.00</b> 
           <br/>
           <p className="eligible"><b>*</b> You are not eligible for placement drives</p>
         </div>

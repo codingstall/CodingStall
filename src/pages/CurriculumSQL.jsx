@@ -81,7 +81,7 @@ const CurriculumSQL = () => {
             <h4>Ajay Reddy</h4>
             <p>
               Senior FullStack Developer <br />
-              <span>4+ years Experience</span>
+              <span>6+ years Experience</span>
             </p>
           </div>
 
@@ -93,7 +93,7 @@ const CurriculumSQL = () => {
             <h4>Saisree</h4>
             <p>
               Soft Skills Trainer <br />
-              <span>5+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
         </div>
@@ -134,7 +134,7 @@ const CurriculumSQL = () => {
        <div className="plan-grid">
         <div className="basicplan-box">
           <h4>Basic Plan</h4>
-          <b>15,000.00</b>
+          <b>20,000.00</b>
            <br/>
           <p className="eligible"><b>*</b> You are not eligible for placement drives</p>
         </div>

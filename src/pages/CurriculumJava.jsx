@@ -54,7 +54,7 @@ const CurriculumJava = () => {
             <h4>Ajay Reddy</h4>
             <p>
               Senior FullStack Developer <br />
-              <span>4+ years Experience</span>
+              <span>6+ years Experience</span>
             </p>
           </div>
 
@@ -67,7 +67,7 @@ const CurriculumJava = () => {
             <p>
               Soft Skills Trainer
               <br />
-              <span>5+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
         </div>
@@ -132,13 +132,13 @@ const CurriculumJava = () => {
       <div className="plan-grid">
         <div className="basicplan-box">
           <h4>Basic Plan</h4>
-          <b>15,000.00</b>
+          <b>20,000.00</b>
            <br/>
           <p className="eligible"><b>*</b> You are not eligible for placement drives</p>
         </div>
         <div className="afterplaced-box">
           <h4>Pay After Placement Plan</h4>
-          <p className="eligible">Pay basic amount first. Then pay <b>40,000.00</b> after you got placed through us.</p>
+          <p className="eligible">Pay basic amount first. Then pay <b>,000.00</b> after you got placed through us.</p>
         </div>
       </div>
 

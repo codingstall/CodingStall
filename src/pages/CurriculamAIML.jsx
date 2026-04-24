@@ -49,7 +49,7 @@ const CurriculamAIML = () => {
             <h5>ManiSai</h5>
             <p>
               Senior AI/ML Trainer <br />
-              <span>5+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const CurriculamAIML = () => {
             <h5>Anushka Jain</h5>
             <p>
               ML Engineer <br />
-              <span>4+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div> */}
 
@@ -73,7 +73,7 @@ const CurriculamAIML = () => {
             <h5>Saisree</h5>
             <p>
               Soft Skills Trainer <br />
-              <span>5+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
         </div>

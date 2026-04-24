@@ -43,7 +43,7 @@ const CurriculumFullStackJava = () => {
             <h5>Ajay Reddy</h5>
             <p>
               Senior Fullstack Developer <br />
-              <span>4+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
 
@@ -52,7 +52,7 @@ const CurriculumFullStackJava = () => {
             <h5>Anushka Jain</h5>
             <p>
               Senior Frontend Developer <br />
-              <span>4+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const CurriculumFullStackJava = () => {
             <h5>Saisree</h5>
             <p>
               Soft Skills Trainer <br />
-              <span>5+ Years Experience</span>
+              <span>6+ Years Experience</span>
             </p>
           </div>
         </div>
@@ -143,7 +143,7 @@ const CurriculumFullStackJava = () => {
        <div className="plan-grid">
         <div className="basicplan-box">
           <h4>Basic Plan</h4>
-          <b>20,000.00</b>
+          <b>30,000.00</b>
            <br/>
           <p className="eligible"><b>*</b> You are not eligible for placement drives</p>
         </div>

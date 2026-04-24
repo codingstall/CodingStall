@@ -9,7 +9,7 @@ const Home = () => {
     {
       id: 1,
       title: "Full-Stack Java Developer",
-      price: "₹20,000",
+      price: "₹30,000",
       tag: "Best Seller",
       icons: ["java", "spring", "sql", "react", "angular", "html", "css"],
       route: "/curriculum/fullstack-java",
@@ -17,7 +17,7 @@ const Home = () => {
     {
       id: 2,
       title: "ReactJs Developer",
-      price: "₹15,000",
+      price: "₹20,000",
       tag: "Trending",
       icons: ["react", "javascript", "html", "css"],
       route: "/curriculum/react",
@@ -25,7 +25,7 @@ const Home = () => {
     {
       id: 3,
       title: "SQL Developer",
-      price: "₹15,000",
+      price: "₹20,000",
       tag: "New",
       icons: ["mysql", "sql", "postgresql"],
       route: "/curriculum/sql",
